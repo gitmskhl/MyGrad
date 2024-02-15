@@ -15,6 +15,7 @@ y = x ** 2
 ```
 
 When using objects of this class in arithmetic calculations, the calculation tree will be automatically built.
+
 ![some text](https://github.com/gitmskhl/mergrad/blob/main/images/im1.png)
 
 
@@ -25,5 +26,7 @@ x = Value(2.)
 y = x ** 2
 y.backward()
 ```
+The calculation tree looks like this
 
+![some text](https://github.com/gitmskhl/mergrad/blob/main/images/im2.png)
 
